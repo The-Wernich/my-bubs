@@ -1,0 +1,31 @@
+canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: block;
+  }
+
+  body {
+  margin: 0;
+  overflow: hidden;
+}
+
+  /* For devices with width <= 768px (tablets and phones) */
+@media (max-width: 768px) {
+  canvas {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+/* For very small phones (like older iPhones or very compact Android devices) */
+@media (max-width: 480px) {
+  canvas {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+  
